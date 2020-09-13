@@ -48,4 +48,3 @@ for (i in 1:nrow(textFile)) {
 df <- df[-1,]
 #this final dataframe will have two columns, Uniprot_ID with labels and Length with length information.
 df <- df %>% rename("currentID" = Uniprot_ID,"length" = Length)
-
